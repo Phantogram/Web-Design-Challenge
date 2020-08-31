@@ -1,0 +1,94 @@
+<!-- Document type snd language -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!--A LANDING PAGE containing:
+    --An explanation of the project.
+    --Links to visualizations page, in a sidebar with preview of each plot.
+    --Clicking the image goes to that visualization. -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>WebViz</title>
+    </head>
+    <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand btn btn-info" href="index.html"><strong>Latitude</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto"> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="figone.html">Max Temp</a>
+                <a class="dropdown-item" href="figtwo.html">Humidity</a>
+                <a class="dropdown-item" href="figthree.html">Cloudiness</a>
+                <a class="dropdown-item" href="figfour.html">Wind Speed</a>
+              </div>
+            </li>        
+            
+            <li class="nav-item">
+              <a class="nav-link" href="compare.html">Comparison</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Bootstrap grid system for body content -->
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="box">
+                  <p class="h2"><strong>Summary: Latitude vs. X</strong></p>
+                  <hr>
+                  <img id="landingimg" src= "Resources/assets/images/Fig1.png" alt="Generic placeholder image">
+                    
+                  <p>The purpose of this analysis is to answer questions regarding the weather as it relates to the proximity of the equator.  
+                    A dataset of over 500 cites was pulled from OpenWeatherMap API.  
+                    A table including those cities can be found on the "Data" tab.</p>
+                  <p>After gathering and cleaning up the data, Matplotlib was used to plot weather aspects against latitude points.  
+                    The weather aspects that we analyzed include: maximum temperature, humidity, cloudiness, and wind speed.  
+                    This site showcases the visualizations derived from the data.  
+                    Each visualization is paired with a description and explanation of findings and correlations.
+                    On the "Comparison" tab you will find all four visualizations.</p>
+                  <p>This analysis will allow you to make improved decisions about weather near the equator.
+                    You might even use this data to plan a vacation given your preferred weather measurements.
+                  </p>
+ 
+                </div>
+              </div>
+              
+              <div class="col-lg-4 col-xs-12">
+                <div class="box">
+                  <p class="h3"><strong>Visualizations</strong></p>
+                  <hr>
+                  <a href="figone.html"><img id="one" src="Resources/assets/images/Fig1.png" width="160" height="150" alt="Generic placeholder image"></a>
+                  <a href="figtwo.html"><img id="two" src="Resources/assets/images/Fig2.png" width="160" height="150" alt="Generic placeholder image"></a>
+                  <a href="figthree.html"><img id="three" src="Resources/assets/images/Fig3.png" width="160" height="150" alt="Generic placeholder image"></a>
+                  <a href="figfour.html"><img id="four"src="Resources/assets/images/Fig4.png" width="160" height="150" alt="Generic placeholder image"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>     
+
+</body>
+
+</html>

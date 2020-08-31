@@ -1,0 +1,112 @@
+<!-- Document type and language -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+    <!-- A "Comparisons" page that:
+    --Contains all of the visualizations on the same page so we can easily visually compare them.
+    --Uses a Bootstrap grid for the visualizations.
+    --The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens. -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Comparison</title>
+    </head>
+
+    <body>
+      <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand btn btn-info" href="index.html"><strong>Latitude</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="figone.html">Max Temp</a>
+                    <a class="dropdown-item" href="figtwo.html">Humidity</a>
+                    <a class="dropdown-item" href="figthree.html">Cloudiness</a>
+                    <a class="dropdown-item" href="figfour.html">Wind Speed</a>
+                  </div>
+                </li>        
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="compare.html">Comparison</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+          
+        <!-- Header -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <p class="h2"><strong>Comparison: Latitude vs. X</strong></p>
+                <hr>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <p class="font-italic">Click any plot to get an in depth analysis.</p>
+              </div>
+            </div>
+          </div>
+      <!-- Compared visualizations -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="box">
+                  <p class="h5"><strong>vs. Max Temperature</strong></p>
+                  <a href="figone.html"><img src="Resources/assets/images/Fig1.png" width="525" height="400" alt="Generic placeholder image"></a>
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <div class="box">
+                  <p class="h5"><strong>vs. Humidity</strong></p>
+                  <a href="figtwo.html"><img src="Resources/assets/images/Fig2.png" width="525" height="400" alt="Generic placeholder image"></a>             
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="box">
+                  <p class="h5"><strong>vs. Cloudiness</strong></p>
+                  <a href="figthree.html"><img src="Resources/assets/images/Fig3.png" width="525" height="400" alt="Generic placeholder image"></a>
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <div class="box">
+                  <p class="h5"><strong>vs. Wind Speed</strong></p>
+                  <a href="figfour.html"><img src="Resources/assets/images/Fig4.png" width="525" height="400" alt="Generic placeholder image"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>     
+    
+    </body>
+</html>

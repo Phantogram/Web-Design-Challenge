@@ -1,0 +1,64 @@
+/* CSS Styling */
+
+.navbar-light .navbar-brand {
+    color: white;}
+
+.h2 {
+    background-color: white;
+    color: #17a2b8;
+    text-indent: 20px;}
+
+.h3 {
+    color: #17a2b8;}
+
+.h5 {
+    text-align: center;
+    color: #17a2b8;}
+
+
+body {
+    background-color: rgb(209, 209, 209);
+    margin-bottom: 40px;}
+
+.container {
+    background-color: white;
+    color: black;
+    padding-top: 30px;}
+
+#landingimg {
+    width: 425px;
+    height: 350px;
+    float: left;}
+
+.font-italic {
+    text-indent: 20px;}
+
+p {
+    text-align: justify;
+    margin-left: 30px;}
+
+
+#one:hover { 
+    border:2px solid #17a2b8;}
+
+#two:hover { 
+    border:2px solid #17a2b8;}
+
+#three:hover { 
+    border:2px solid #17a2b8;}
+
+#four:hover { 
+    border:2px solid #17a2b8;}
+
+
+/* change navbar background on collapse */
+@media (max-width: 768px) {
+    nav.navbar {
+      background: #17a2b8;
+    }
+}
+
+  /* change hamburger button border color */
+button.navbar-toggler {
+    border-color: #17a2b8;
+}
